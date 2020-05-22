@@ -1,0 +1,182 @@
+/***************************TAG SELECTORS***************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 5rem;
+  color: #66bfbf;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 5%;
+  border-color: #eaf6f6;
+
+}
+
+h2 {
+
+  color: #66BFBF
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+
+p {
+  line-height: 2;
+  color: #40514e;
+}
+
+
+/*******************************CLASS SELECTOR******************************************/
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+  color: #66bfbf;
+}
+
+.a_web-developer {
+  margin: 8px 0 0 0;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+
+.profile{
+  width: 30%;
+  margin: 5rem auto ;
+}
+
+.skills{ margin: 7rem auto}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.contact-me{
+  margin: 6.25rem auto 8.125rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h3-friends{ margin:3rem auto ;}
+
+.friends{
+  margin: 1rem auto 2rem auto;
+  width: 30%;
+  padding-bottom: 4rem;
+ }
+
+
+.web { text-decoration: underline;}
+
+.computer {
+  width: 25%;
+ float: left;
+ margin-right: 50px;
+}
+
+.web-design {
+   width: 25%;
+   float: right;
+   margin-left:  30px;
+}
+
+.customer {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.hire-me {
+   width: 25%;
+   float: right;
+   margin-left: 50px;
+ }
+
+ .bottom-container{
+   background-color: #66bfbf;
+   padding: 3rem 0 2rem 0;
+ }
+
+ .copyright{
+   color: #eaf6f6;
+   margin-bottom: 0;
+   font-size: 0.75rem;
+   padding-top: 1rem;
+
+ }
+
+ .footer-link{
+     padding: 0 1.5rem;
+     color: #11999e;
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .footer-link:hover { color: #EAF6F6}
+/****************************  CONTACT ME  styling *****************************************/
+.button {
+   border-top: 1px solid #b8fffe;
+   background: #0b7d77;
+   background: -webkit-gradient(linear, left top, left bottom, from(#05dfd8), to(#0b7d77));
+   background: -webkit-linear-gradient(top, #05dfd8, #0b7d77);
+   background: -moz-linear-gradient(top, #05dfd8, #0b7d77);
+   background: -ms-linear-gradient(top, #05dfd8, #0b7d77);
+   background: -o-linear-gradient(top, #05dfd8, #0b7d77);
+   padding: 20px 40px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+
+   margin-top: 5rem;
+   }
+.button:hover {
+   border-top-color: #03fafa;
+   background: #03fafa;
+   color: #0d0d09;
+   }
+.button:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
